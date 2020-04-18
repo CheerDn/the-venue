@@ -34,11 +34,9 @@ class Countdown extends Component {
     setInterval(() => this.getTimeUntil(this.state.deadline), 1000);
   }
   
-
-
   render() {
     return (
-      <Slide left delay={2000}>
+      <Slide left delay={1500}>
         <div className="countdown_wrapper">
           <div className="countdown_top">
             Event start in

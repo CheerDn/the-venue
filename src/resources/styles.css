@@ -157,6 +157,7 @@ footer .footer_copyright {
 .vn_wrapper {
     display: flex;
     padding: 170px 0px;
+    min-height: 100%;
 }
 
 .vn_item {
@@ -170,6 +171,8 @@ footer .footer_copyright {
     border: 2px solid #828282;
     margin: auto;
     padding: 5px;
+    height:100%;
+    
 }
 
 .vn_item .vn_inner { 
@@ -177,6 +180,7 @@ footer .footer_copyright {
     position: relative;
     padding: 0px 20px;
     transition: all 500ms ease;
+    height:100%;
 }
 
 .vn_item .vn_inner:hover {
@@ -214,7 +218,7 @@ footer .footer_copyright {
 .vn_item .vn_desc {
     font-size: 30px;
     font-weight: 300;
-    margin-bottom: 90px;
+    margin-bottom: 45px;
 }
 
 /*====================
