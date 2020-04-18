@@ -67,6 +67,7 @@ footer {
     font-size: 60px;
     color:#ffffff;
     background: red;
+    margin-top:-10px;
 }
 
 footer .footer_copyright {
@@ -352,7 +353,7 @@ footer .footer_copyright {
 
 .location_tag {
     position: absolute;
-    bottom: 0px;
+    bottom: 4px;
     width: 100%;
 }
 .location_tag div{
