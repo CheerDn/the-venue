@@ -17,7 +17,7 @@ const CustomizedButton = (props) => {
       <img 
         src={ticketIcon} 
         alt="button_icon"
-        className="iconImage"
+        className="icon-image"
       />
       {props.text}
     </Button>

@@ -19,16 +19,16 @@ class Pricing extends Component {
   showBoxes = () => (
     this.state.prices.map( (box, i) => (
       <Zoom key={i} delay={this.state.delay[i]}>
-        <div className="pricing_item">
-          <div className="pricing_inner_wrapper">
-            <div className="pricing_title">
+        <div className="pricing__item">
+          <div className="pricing__wrapper--inner">
+            <div className="pricing__title">
               <span>${this.state.prices[i]}</span>
               <span>${this.state.positions[i]}</span>
             </div>
-            <div className="pricing_description">
+            <div className="pricing__description">
               {this.state.description}
             </div>
-            <div className="pricing_buttons">
+            <div className="pricing__buttons">
               <CustomizedButton 
                 text="Purchase"
                 bck="#ffa800"
@@ -45,10 +45,10 @@ class Pricing extends Component {
 
   render() {
     return (
-      <div className="bck_black">
-        <div className="center_wrapper pricing_section">
+      <div className="bck--black">
+        <div className="center-wrapper pricing__section">
           <h2>Pricing</h2>
-          <div className="pricing_wrapper">
+          <div className="pricing__wrapper">
             {this.showBoxes()}
           </div>
         </div> 

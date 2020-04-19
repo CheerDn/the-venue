@@ -1,12 +1,18 @@
-footer {
-  padding:50px 0px;
+.footer {
   text-align: center;
-  font-size: 60px;
-  color:#ffffff;
-  background: red;
-  margin-top:-10px;
+  color:$bckWhite;
+  &__logo-venue {
+    padding-top:50px;
+    font-size: 60px;
+    background: $bckOrange;
+    margin-top:-5px;
+  }
+
+  &__copyright {
+    font-size: 18px;
+    padding-bottom: 50px;
+
+  }
 }
 
-footer .footer_copyright {
-  font-size: 18px;
-}
+

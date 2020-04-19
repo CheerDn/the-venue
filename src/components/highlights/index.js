@@ -4,9 +4,9 @@ import Discount from './Discount'
 
 const Highlights = () => {
   return (
-    <div className="highlight_wrapper">
+    <div>
       <Description />
-      <Discount />
+      <Discount className="discount" />
     </div>
 
 

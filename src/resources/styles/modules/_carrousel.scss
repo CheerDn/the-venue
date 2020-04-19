@@ -1,17 +1,15 @@
 .carrousel {
   &__wrapper {
-    height:700px;
+    height: 100vh;
     overflow: hidden;
   }
 
   &__image {
     background-size: cover !important;
   }
-
 }
 
-.artist {
-  &__name {
+.artist-name {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -21,7 +19,7 @@
     transform: translate(-50%, -50%);   
     border: 2px solid white;
 
-    & .wrapper {
+    &__wrapper {
       border: 2px solid white;
       height: 121px;
       margin: 6px;
@@ -31,7 +29,6 @@
       padding: 21px 70px 0px 70px;
       text-transform: uppercase;
     }
-  }
 
 }
 
