@@ -37,40 +37,40 @@ class Countdown extends Component {
   render() {
     return (
       <Slide left delay={1500}>
-        <div className="countdown_wrapper">
-          <div className="countdown_top">
+        <div className="countdown__wrapper">
+          <div className="countdown__top">
             Event start in
           </div>
-          <div className="countdown_bottom">
-            <div className="countdown_item">
-              <div className="countdown_time">
+          <div className="countdown__bottom">
+            <div className="countdown__item">
+              <div className="countdown__time">
                 {this.state.days}
               </div>
-              <div className="countdown_tag">
+              <div className="countdown__tag">
                 Days
               </div>
             </div>
-            <div className="countdown_item">
-              <div className="countdown_time">
+            <div className="countdown__item">
+              <div className="countdown__time">
               {this.state.hours}
               </div>
-              <div className="countdown_tag">
+              <div className="countdown__tag">
                 Hs
               </div>
             </div>
-            <div className="countdown_item">
-              <div className="countdown_time">
+            <div className="countdown__item">
+              <div className="countdown__time">
               {this.state.minutes}
               </div>
-              <div className="countdown_tag">
+              <div className="countdown__tag">
                 Mins
               </div>
             </div>
-            <div className="countdown_item">
-              <div className="countdown_time">
+            <div className="countdown__item">
+              <div className="countdown__time">
               {this.state.seconds}
               </div>
-              <div className="countdown_tag">
+              <div className="countdown__tag">
                 Secs
               </div>
             </div>

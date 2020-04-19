@@ -1,36 +1,44 @@
 
-.countdown_wrapper {
-  position:absolute;
-  bottom: 0px;
-  color:#ffffff;
-}
+.countdown{
 
-.countdown_wrapper .countdown_top {
-  background: #ff4800;
-  font-size: 19px;
-  padding: 10px;
-  display: inline-block;
-  text-transform: uppercase;
-}
+  &__wrapper {
+    position:absolute;
+    bottom: 0px;
+    color:#ffffff;
+  }
 
-.countdown_wrapper .countdown_bottom {
-  display: flex;
-  background: #d93d00;
-  padding: 10px 20px;
-}
+  &__top {
+    background: $bckOrange;
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
 
-.countdown_wrapper .countdown_time {
-  font-size: 70px;
-  border-right: 1px solid #F44336;
-  margin-right: 14px;
-  padding-right: 49px;
-}
-.countdown_wrapper .countdown_item:last-child .countdown_time{
-  border:none;
-}
+  }
 
-.countdown_wrapper .countdown_tag {
-  text-transform: uppercase;
-  font-size: 20px;
-  padding-left: 7px;
+  &__bottom {
+    display: flex;
+    background: $bckOrange--darker;
+    padding: 10px 0px;
+  }
+
+  &__time {
+    font-size: 70px;
+    border-right: 1px solid $borderOrange;
+    margin-right: 14px;
+    padding-right: 49px;
+
+  }
+
+  &__item:last-child .countdown__time {
+    border: none;
+    margin-right: 0;
+  }
+
+  &__tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+  }
+
 }

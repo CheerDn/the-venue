@@ -4,29 +4,37 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.font_righteous {
+.font-righteous {
   font-family: 'Righteous', cursive;
 }
 
-.bck_black {
-  background: $bckBlack;
-}
-.bck_white {
-  background: $bckWhite;
-}
-.bck_red {
-  background: $bckRed;
-}
-.bck_yellow {
-  background: $bckYellow;
+
+.bck {
+   &--black {
+    background: $bckBlack;
+  }
+
+  &--white {
+    background: $bckWhite;
+  }
+
+  &--orange {
+    background: $bckOrange;
+  }
+
+  &--yellow {
+    background: $bckYellow;
+  }
 }
 
-.iconImage {
+
+
+.icon-image {
   width: 20px;
   margin-right: 10px;
 }
 
-.center_wrapper {
+.center-wrapper {
   width: 900px;
   margin:0 auto;
 }

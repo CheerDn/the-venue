@@ -18,10 +18,6 @@ const Carrousel = () => {
   return (
     <div 
       className="carrousel__wrapper"
-      style={{
-        height:`${window.innerHeight}px`,
-        overflow:'hidden'
-      }}
     >
       <Slider  {...settings}>
         <div>

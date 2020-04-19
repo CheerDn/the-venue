@@ -28,20 +28,20 @@ class Discount extends Component {
 
   render() {
     return (
-      <div className="center_wrapper">
-        <div className="discount_wrapper">
+      <div className="center-wrapper">
+        <div className="discount__wrapper">
 
           <Fade
             onReveal = {() => this.percentage()}
           >
-            <div className="discount_percentage">
+            <div className="discount__percentage">
               <span>{this.state.discountStart}%</span>
               <span>off</span>
             </div>
           </Fade>
         
           <Slide right>
-            <div className="discount_description">
+            <div className="discount__description">
               <h3>Purchase tickets before 20 SEPT</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero quia sequi officia ullam quasi at itaque in soluta doloribus! Error nam expedita totam deleniti tempore minima excepturi enim adipisci?</p>
               <CustomizedButton 
