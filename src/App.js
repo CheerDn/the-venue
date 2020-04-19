@@ -1,5 +1,5 @@
 import React from 'react';
-import './resources/styles.css';
+import './resources/styles.scss';
 import {Element} from 'react-scroll'
 
 import Header from './components/header_footer/Header';

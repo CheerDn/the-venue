@@ -1,0 +1,32 @@
+body {
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.font_righteous {
+  font-family: 'Righteous', cursive;
+}
+
+.bck_black {
+  background: $bckBlack;
+}
+.bck_white {
+  background: $bckWhite;
+}
+.bck_red {
+  background: $bckRed;
+}
+.bck_yellow {
+  background: $bckYellow;
+}
+
+.iconImage {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.center_wrapper {
+  width: 900px;
+  margin:0 auto;
+}
