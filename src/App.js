@@ -13,7 +13,8 @@ import Footer from './components/header_footer/Footer'
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header className="header"
+      />
 
       <Element name="featured">
         <Featured />

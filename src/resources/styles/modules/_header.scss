@@ -1,16 +1,19 @@
 
-header {
+.header {
   padding:10px 0px;
-  transition: all 300ms ease-in;
+  transition: all .3s ease-in;
+
+  &__logo {
+    flex-grow: 1;
+  }
+
+  &__logo-venue {
+    font-size: 40px;
+  }
+
+  &__logo-title {
+    text-transform: uppercase;
+  }
+
 }
 
-header .header_logo {
-  flex-grow: 1;
-}
-header .header_logo_venue {
-  font-size: 40px;
-}
-
-header .header_logo_title {
-  text-transform: uppercase;
-}

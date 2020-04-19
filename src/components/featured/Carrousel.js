@@ -17,7 +17,7 @@ const Carrousel = () => {
 
   return (
     <div 
-      className="carrousel_wrapper"
+      className="carrousel__wrapper"
       style={{
         height:`${window.innerHeight}px`,
         overflow:'hidden'
@@ -26,7 +26,7 @@ const Carrousel = () => {
       <Slider  {...settings}>
         <div>
           <div 
-            className="carrousel_image"
+            className="carrousel__image"
             style={{
               background:`url(${slideOne})`,
               height:`${window.innerHeight}px`
@@ -36,7 +36,7 @@ const Carrousel = () => {
         </div>
         <div>
           <div 
-            className="carrousel_image"
+            className="carrousel__image"
             style={{
               background:`url(${slideTwo})`,
               height:`${window.innerHeight}px`
@@ -46,7 +46,7 @@ const Carrousel = () => {
         </div>
         <div>
         <div 
-            className="carrousel_image"
+            className="carrousel__image"
             style={{
               background:`url(${slideThree})`,
               height:`${window.innerHeight}px`
