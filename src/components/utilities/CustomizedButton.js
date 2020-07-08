@@ -1,12 +1,12 @@
-import React from 'react';
-import Button from '@material-ui/core/Button'
+import React from "react"
+import Button from "@material-ui/core/Button"
 
-import ticketIcon from '../../resources/images/icons/ticket.png'
+import ticketIcon from "../../resources/images/icons/ticket.png"
 
-const CustomizedButton = (props) => {
+const CustomizedButton = props => {
   return (
     <Button
-      href= {props.link}
+      href={props.link}
       variant="contained"
       size="small"
       style={{
@@ -14,15 +14,10 @@ const CustomizedButton = (props) => {
         color: props.color
       }}
     >
-      <img 
-        src={ticketIcon} 
-        alt="button_icon"
-        className="icon-image"
-      />
+      <img src={ticketIcon} alt="button_icon" className="icon-image" />
       {props.text}
     </Button>
-    
-  );
-};
+  )
+}
 
-export default CustomizedButton;
+export default CustomizedButton
