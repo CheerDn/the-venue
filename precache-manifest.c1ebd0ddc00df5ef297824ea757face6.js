@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75c57aab4a7f3cc26074f96c02c6ad99",
+    "revision": "7a36a9b68993793797eb753723aa075b",
     "url": "/the-venue/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-venue/static/css/2.bc96290c.chunk.css"
   },
   {
-    "revision": "1ebf8f9dba754444195b",
+    "revision": "5a9edd428f495e02b58b",
     "url": "/the-venue/static/css/main.3b989b46.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-venue/static/js/2.10b4bb93.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ebf8f9dba754444195b",
-    "url": "/the-venue/static/js/main.6ec7ea6d.chunk.js"
+    "revision": "5a9edd428f495e02b58b",
+    "url": "/the-venue/static/js/main.2131e527.chunk.js"
   },
   {
     "revision": "9c4ddcfaadbbd87547d1",
